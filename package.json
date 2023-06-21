@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "react-leaflet": "^4.2.1",
     "autoprefixer": "10.4.14",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
