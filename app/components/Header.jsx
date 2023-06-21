@@ -1,6 +1,6 @@
+"use client";
 import React, { useState} from "react";
 import Image from 'next/image';
-// import { FaBars, FaAngleDoubleLeft } from "react-icons/fa";
 import logo from "../assets/logo.svg";
 
 const Header = () => {
@@ -16,6 +16,8 @@ const Header = () => {
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto bg">
           <a href="/" className="flex items-center ">
             <Image
+              width={50}
+              height={50}
               src={logo}
               className="h-6 mr-3 sm:h-9 "
               alt="Landwind Logo"
@@ -55,7 +57,6 @@ const Header = () => {
               <a href="/productos_servicios">
                 <h2 className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-red-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" >Productos y Servicios</h2>
               </a>
-              
             </ul>
           </div>
         </div>
