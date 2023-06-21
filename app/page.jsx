@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import PreguntasFrecuentes from "./components/PreguntasFrecuentes";
 import logo from "./assets/logo.svg";
+import Image from 'next/image';
 import extintor from "./assets/Extinguidor_logo2.svg"
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                        <img src={logo} />
+                        <Image src={logo} />
                     </div>
                 </div>
             </section>
@@ -49,7 +50,7 @@ const Home = () => {
             <section class="bg-white dark:bg-gray-800">
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                    <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={extintor}
+                    <Image class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={extintor}
                             alt="imagen extinguidor" />
                         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                             <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">

@@ -13,7 +13,7 @@ const Productos_Servicios = () => {
         <div id="container" className="min-h-100vh flex flex-wrap justify-center">
             <Header />
 
-            <section class="bg-gray-50 dark:bg-gray-900">
+            <section class="bg-white dark:bg-gray-900">
                 <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
                     <div class="col-span-2 mb-8">
                         <p class="text-lg font-medium text-red-600 dark:text-red-500">Extinguidores Rocha</p>
