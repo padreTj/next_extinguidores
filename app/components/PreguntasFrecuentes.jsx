@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link';
 
 const PreguntasFrecuentes = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -42,8 +43,8 @@ const PreguntasFrecuentes = () => {
                                     madera, líquidos inflamables, gas, y equipos eléctricos.
                                     Asegúrese de conocer el tipo de incendio más probable en su
                                     entorno para elegir el
-                                    <a href="/" className="text-red-500 dark:text-purple-500 hover:underline"> extintor
-                                        adecuado</a>.
+                                    <Link href="/" className="text-red-500 dark:text-purple-500 hover:underline"> extintor
+                                        adecuado</Link>.
                                 </p>
                             </div>
                         </div>
@@ -64,7 +65,7 @@ const PreguntasFrecuentes = () => {
                             <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                                 <p className="mb-2 text-gray-500 dark:text-gray-400">
                                     Se recomienda tener al menos un
-                                    <a href="/" className="text-red-500 dark:text-purple-500 hover:underline"> extintor </a>
+                                    <Link href="/" className="text-red-500 dark:text-purple-500 hover:underline"> extintor </Link>
                                     en cada nivel del edificio y en lugares accesibles y visibles,
                                     como cerca de las salidas de emergencia y en áreas con equipos
                                     eléctricos o inflamables.
@@ -102,11 +103,11 @@ const PreguntasFrecuentes = () => {
                                 </p>
                                 <ul className="pl-5 text-gray-500 list-disc dark:text-gray-400">
                                     <li>
-                                        <a href="/" className="text-red-500 dark:text-purple-500 hover:underline">Recarga</a>
+                                        <Link href="/" className="text-red-500 dark:text-purple-500 hover:underline">Recarga</Link>
                                     </li>
                                     <li>
-                                        <a href="/"
-                                            className="text-red-500 dark:text-purple-500 hover:underline">Mantenimiento</a>
+                                        <Link href="/"
+                                            className="text-red-500 dark:text-purple-500 hover:underline">Mantenimiento</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -135,8 +136,8 @@ const PreguntasFrecuentes = () => {
                                 </p>
                                 <p className="mb-2 text-gray-500 dark:text-gray-400">
                                     Protéjase a sí mismo y a su equipo. Pregunte por nuestros
-                                    <a href="/productos-servicios" className="text-red-500 dark:text-purple-500 hover:underline"> cursos de
-                                        capacitacion </a>
+                                    <Link href="/productos-servicios" className="text-red-500 dark:text-purple-500 hover:underline"> cursos de
+                                        capacitacion </Link>
                                     en extintores y prevención de incendios.
                                 </p>
                             </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import Whatsapp from '../assets/whatsapp.svg'
 import facebook from '../assets/facebook.svg'
-import Map from './Mapa'
+import Link from 'next/link';
+// import Map from './Mapa'
 import { FaMapMarkerAlt } from "react-icons/fa";
 import logo from "../assets/logo.svg";
 import Image from "next/image";
@@ -14,19 +15,18 @@ const Footer = () => {
                     <div className="flex-col justify-center">
                         <h2 className="font-bold uppercase text-red-500 dark:text-gray-400 text-center">Dirección</h2>
                         <nav className='text-primary dark:text-gray-400 '>
-                            <a href="https://www.google.com/maps/search/?api=1&query=32.447637174701676, -116.9674882050032"
+                            <Link href="https://www.google.com/maps/search/?api=1&query=32.447637174701676, -116.9674882050032"
                                 className="flex items-center justify-center gap-2 text-gray-500 dark:text-gray-400 hover:text-primary hover:bg-gray-200 p-2 rounded-lg transition-colors"
                                 target="_blank" >
                                 <FaMapMarkerAlt />
                                 <h1 className='text-primary'>De las palomas 485 Amparo Sanchez 22183</h1>
-                            </a>
+                            </Link>
                         </nav>
                     </div>
                     <div>
-
                         <h2 className="font-bold uppercase text-red-500 dark:text-gray-400 text-center">Redes sociales</h2>
                         <nav className='text-gray-500 dark:text-gray-400 '>
-                            <a
+                            <Link
                                 href="https://www.facebook.com/profile.php?id=100091057982591"
                                 className="flex items-center justify-center gap-2 text-primary dark:text-gray-400 hover:text-primary hover:bg-gray-200 p-2 rounded-lg transition-colors"
                                 target="_blank"
@@ -37,8 +37,8 @@ const Footer = () => {
                                     alt="Facebook"
                                 />
                                 <h1>Facebook</h1>
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 href="https://wa.me/526641670776?text=Vi%20su%20anuncio%20y%20quisiera%20consultar%20su%20cat%c3%a1logo%20de%20extintores"
                                 className="flex items-center justify-center gap-2 text-primary dark:text-gray-400 hover:text-primary hover:bg-gray-200  p-2 rounded-lg transition-colors"
                                 target="_blank"
@@ -49,12 +49,10 @@ const Footer = () => {
                                     alt="whatsapp"
                                 />
                                 <h1>Whatsapp</h1>
-                            </a>
+                            </Link>
                         </nav>
-
                     </div>
                     <div>
-
                         <h2 className="font-bold uppercase text-red-500 dark:text-gray-400 text-center">CONTÁCTANOS</h2>
                         <nav className='text-primary dark:text-gray-400 '>
                             <p className="flex items-center justify-center gap-2 text-primary dark:text-gray-400 hover:text-primary hover:bg-gray-200 p-2 rounded-lg transition-colors">
@@ -71,9 +69,8 @@ const Footer = () => {
                                         d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
                                     />
                                 </svg>
-                                <a href="tel:6641670776">(+52) 664-16-70-776</a>
+                                <Link href="tel:6641670776">(+52) 664-16-70-776</Link>
                             </p>
-
                             <p className="flex items-center justify-center gap-2 text-primary dark:text-gray-400 hover:text-primary hover:bg-gray-200 p-2 rounded-lg transition-colors">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -88,19 +85,19 @@ const Footer = () => {
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                                     />
                                 </svg>
-                                <a href="mailto:extinguidoresrocha@gmail.com">extinguidoresrocha@gmail.com</a>
+                                <Link href="mailto:extinguidoresrocha@gmail.com">extinguidoresrocha@gmail.com</Link>
                             </p>
                         </nav>
                     </div>
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="w-full xl:w-6/6 md:w-6/6 pt-4 md:pt-0">
-                    <Map />
+                    {/* <Map /> */}
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="text-center ">
                     
-                    <a href="/">
+                    <Link href="/">
                         <p className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
                             <Image 
                                 width={50}
@@ -110,10 +107,9 @@ const Footer = () => {
                                 alt="Landwind Logo" />
                             Extinguidores Rocha
                         </p>
-                    </a>
-
+                    </Link>
                     <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023
-                        <a href="/"><p className="text-red-500 hover:underline dark:text-purple-500"> Extinguidores Rocha</p> </a>.Todos los derechos reservados.
+                        <Link href="/"><p className="text-red-500 hover:underline dark:text-purple-500"> Extinguidores Rocha</p> </Link>.Todos los derechos reservados.
                     </span>
                     
                 </div>

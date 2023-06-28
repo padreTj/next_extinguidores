@@ -4,6 +4,7 @@ import PreguntasFrecuentes from "./components/PreguntasFrecuentes";
 import logo from "./assets/logo.svg";
 import Image from 'next/image';
 import extintor from "./assets/Extinguidor_logo2.svg"
+import Link from "next/link";
 
 const Home = () => {
     return (
@@ -28,15 +29,11 @@ const Home = () => {
                             proporcionando servicios eficientes y confiables.
                         </p>
                         <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                            <a
+                            <Link
                                 href="https://wa.me/526641670776?text=Hola%20podrían%20brindarme%20más%20información%20sobre%20los%20extintores%20que%20ofrecen?%20Me%20gustaría%20saber%20qué%20tipos%20y%20tamaños%20de%20extintores%20tienen%20disponibles.%20¿Me%20pueden%20asesorar%20para%20elegir%20el%20extintor%20adecuado%20para%20mi%20hogar%20o%20negocio?%20¡Gracias!"
                                 className="flex items-center justify-center text-white hover:text-primary hover:bg-gray-100 rounded-lg transition-colors"
                                 target="_blank">
-                                {/* <img
-                                    className="rounded-t-md"
-                                    src="./images/WhatsAppButtonGreenLarge.svg"
-                                    alt="boton de WhatsApp" /> */}
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -106,8 +103,8 @@ const Home = () => {
                                 Proteja su seguridad con los extintores de alta calidad de
                                 Extinguidores Rocha.
                             </p>
-                            <a href="https://wa.me/526641670776?text=¡Hola!%20He%20visto%20en%20tu%20página%20que%20tienes%20la%20mejor%20opción%20de%20extintor%20para%20emergencias.%20¿Podrías%20proporcionarme%20más%20información%20y%20cómo%20puedo%20adquirirlo?%20¡Gracias!"
-                                className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-base font-medium text-white bg-red-500 rounded-lg shadow-sm lg:mb-0 lg:w-auto lg:px-8 lg:py-4 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Contacto</a>
+                            <Link href="https://wa.me/526641670776?text=¡Hola!%20He%20visto%20en%20tu%20página%20que%20tienes%20la%20mejor%20opción%20de%20extintor%20para%20emergencias.%20¿Podrías%20proporcionarme%20más%20información%20y%20cómo%20puedo%20adquirirlo?%20¡Gracias!"
+                                className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-base font-medium text-white bg-red-500 rounded-lg shadow-sm lg:mb-0 lg:w-auto lg:px-8 lg:py-4 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Contacto</Link>
                         </div>
                         
                     </div>

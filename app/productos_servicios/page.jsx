@@ -3,6 +3,7 @@ import React from "react";
 import Image from 'next/image';
 import equipo from "../assets/equipo.svg";
 import extintor from "../assets/extintor.svg";
+import Link from "next/link";
 
 
 const Productos_Servicios = () => {
@@ -16,16 +17,16 @@ const Productos_Servicios = () => {
                         <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400 text-justify">En extinguidores Rocha nos comprometemos a proporcionar soluciones completas para proteger tu negocio. Ofrecemos una amplia variedad de extintores de alta calidad y equipos de protección contra incendios, además de servicios de recarga, mantenimiento y renta de extintores. Nuestro equipo altamente capacitado está a tu disposición para ayudarte a encontrar la mejor opción de protección contra incendios para satisfacer tus necesidades. ¡Confía en nosotros para proteger tu negocio y mantén la tranquilidad en caso de emergencia</p>
                         <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
                             <div>
-                                <a href="https://wa.me/526641670776?text=¡Hola!%20He%20visto%20en%20tu%20página%20que%20tienes%20la%20mejor%20opción%20de%20extintor%20para%20emergencias.%20¿Podrías%20proporcionarme%20más%20información%20y%20cómo%20puedo%20adquirirlo?%20¡Gracias!" className="inline-flex items-center text-base font-medium text-red-500 hover:text-red-600 dark:text-red-500 dark:hover:text-red-600">
+                                <Link href="https://wa.me/526641670776?text=¡Hola!%20He%20visto%20en%20tu%20página%20que%20tienes%20la%20mejor%20opción%20de%20extintor%20para%20emergencias.%20¿Podrías%20proporcionarme%20más%20información%20y%20cómo%20puedo%20adquirirlo?%20¡Gracias!" className="inline-flex items-center text-base font-medium text-red-500 hover:text-red-600 dark:text-red-500 dark:hover:text-red-600">
                                     Clic para mas informacion de productos.
                                     <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                </a>
+                                </Link>
                             </div>
                             <div>
-                                <a href="https://wa.me/526641670776?text=Hola%20me%20gustaria%20saber%20que%20tipos%20de%20servicios%20ofrecen" className="inline-flex items-center text-base font-medium text-red-500 hover:text-red-600 dark:text-red-500 dark:hover:text-red-600">
+                                <Link href="https://wa.me/526641670776?text=Hola%20me%20gustaria%20saber%20que%20tipos%20de%20servicios%20ofrecen" className="inline-flex items-center text-base font-medium text-red-500 hover:text-red-600 dark:text-red-500 dark:hover:text-red-600">
                                     Clic para mas informacion de servicios.
                                     <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -104,7 +105,7 @@ const Productos_Servicios = () => {
                                 </li>
 
                             </ul>
-                            <a href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Primeros%20Auxilios.%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</a>
+                            <Link href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Primeros%20Auxilios.%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</Link>
                         </div>
 
                         <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -149,7 +150,7 @@ const Productos_Servicios = () => {
 
 
                             </ul>
-                            <a href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Uso%20y%20manejo%20de%20extintores.%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</a>
+                            <Link href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Uso%20y%20manejo%20de%20extintores.%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</Link>
                         </div>
 
                         <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -199,7 +200,7 @@ const Productos_Servicios = () => {
                                     <span>Practica integral</span>
                                 </li>
                             </ul>
-                            <a href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Busqueda%20y%20rescate%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</a>
+                            <Link href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Busqueda%20y%20rescate%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</Link>
                         </div>
 
                         <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -242,7 +243,7 @@ const Productos_Servicios = () => {
                                 </li>
 
                             </ul>
-                            <a href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Reanimacion%20cardio%20pulmonar%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</a>
+                            <Link href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Reanimacion%20cardio%20pulmonar%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</Link>
                         </div>
 
                         <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -301,7 +302,7 @@ const Productos_Servicios = () => {
                                 </li>
 
                             </ul>
-                            <a href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Evacuacion%20y%20repliegue%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</a>
+                            <Link href="https://wa.me/526641670776?text=¡Hola!%20Me%20interesa%20mucho%20su%20curso%20de%20Evacuacion%20y%20repliegue%20¿Podría%20obtener%20más%20información%20sobre%20el%20curso,%20incluido%20el%20precio%20y%20cómo%20puedo%20participar?%20¡Gracias!" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Pregunta por este curso</Link>
                         </div>
                     </div>
                 </div>
