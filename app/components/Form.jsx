@@ -4,7 +4,7 @@ const Formulario = () => {
     const {
         register,
         formState: { errors },
-        watch,
+        // watch,
         handleSubmit,
     } = useForm({
         defaultValues: {
@@ -84,12 +84,10 @@ const Formulario = () => {
                         </p>
                     )}
                 </div>
-
                 {/* boton de submit con tailwind */}
                 <button className="group flex w-full justify-center rounded-md bg-seccondary py-2 px-3 text-sm font-semibold text-white hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="submit">
                     Enviar
                 </button>
-
             </form>
         </div>
 )};

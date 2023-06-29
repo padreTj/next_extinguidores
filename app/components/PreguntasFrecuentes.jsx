@@ -136,7 +136,7 @@ const PreguntasFrecuentes = () => {
                                 </p>
                                 <p className="mb-2 text-gray-500 dark:text-gray-400">
                                     Protéjase a sí mismo y a su equipo. Pregunte por nuestros
-                                    <Link href="/productos-servicios" className="text-red-500 dark:text-purple-500 hover:underline"> cursos de
+                                    <Link href="/productos_servicios" className="text-red-500 dark:text-purple-500 hover:underline"> cursos de
                                         capacitacion </Link>
                                     en extintores y prevención de incendios.
                                 </p>
